@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4d047ca79e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter clone</title>
+</head>
+<body>
+    <div id="container">
+        <div id="left_page">
+            <a href="#"><h2><i class="fab fa-twitter"></i></h2></a>
+            <a href="#"><h2><i class="fas fa-home"></i> Home</h2></a>
+            <a href="#"><h2><i class="fas fa-hashtag"></i> Explore</h2></a>
+            <a href="#"><h2><i class="fas fa-bell"></i> Notifications</h2></a>
+            <a href="#"><h2><i class="fas fa-envelope"></i> Messages</h2></a>
+            <a href="#"><h2><i class="fas fa-bookmark"></i> Bookmarks</h2></a>
+            <a href="#"><h2><i class="fas fa-list"></i> Lists</h2></a>
+            <a href="#"><h2><i class="fas fa-user"></i> Profile</h2></a>
+            <a href="#"><h2><i class="fas fa-angle-double-right"></i> More</h2></a>
+            <button class="tweetBtn">Tweet</button>
+        </div>
+        <div id="middle_page">
+            <nav class="topnav">
+                <a href="#home"><h3>Home</h3></a>
+                <i class="fas fa-hand-sparkles"></i>
+            </nav>
+            <div class="tweetContent" id="tweetStatus">
+                <img class="profilePic" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Avatar_2_logo.jpg/220px-Avatar_2_logo.jpg" alt="">
+                
+                <div id="mainStatus">
+                    <textarea name="tweetText" id="tweetText" placeholder="What's happening?" cols="80" rows="2"></textarea>
+                    <div id="tweetStatusSup">
+                        <div id="tweetImgs">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+
+                        <button class="tweetBtn">Tweet</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tweetContent">
+                <img class="profilePic" src="https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives.png" alt="">
+                
+                <div id="mainStatus">
+                    <p><strong>Goal </strong><span id="@username">@goal</span>. 4m </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatem reiciendis consequatur rem vel, aut laboriosam placeat nulla aperiam nam qui nostrum eius! Dolor incidunt quibusdam doloribus illo tenetur placeat corporis veritatis mollitia excepturi, similique cum ipsa, error vel modi neque iusto cumque nemo fugit. Distinctio alias itaque quas ipsa nam repellendus sed quasi, a aliquam ad qui hic eos doloribus delectus natus enim, aut recusandae. Illo architecto vero vitae voluptas. Iure doloremque beatae nemo soluta ad dolor. Minus explicabo vero iure, id facere laudantium cumque veritatis quaerat, sint iste corrupti odit placeat accusantium, illo in corporis perferendis sapiente reprehenderit!</p>
+                    <div id="tweetContentImgs">
+                        <i class="fab fa-twitter">22</i>
+                        <i class="fab fa-twitter">9231</i>
+                        <i class="fab fa-twitter">731</i>
+                        <i class="fab fa-twitter"></i>
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tweetContent">
+                <img class="profilePic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/1200px-Goal-com_Logo.svg.png" alt="">
+                
+                <div id="mainStatus">
+                    <p><strong>Goal </strong><span id="@username">@goal</span>. 4m </p>
+                    <p>Cristiano Ronaldo reaches yet another goal milestone.</p>
+                    <img class="tweetImg" src="https://as01.epimg.net/en/imagenes/2020/12/02/football/1606948145_864211_noticia_normal.jpg" alt="">
+                    <div id="tweetContentImgs">
+                        <i class="fab fa-twitter">22</i>
+                        <i class="fab fa-twitter">9231</i>
+                        <i class="fab fa-twitter">731</i>
+                        <i class="fab fa-twitter"></i>
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tweetContent">
+                <img class="profilePic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/1200px-Goal-com_Logo.svg.png" alt="">
+                
+                <div id="mainStatus">
+                    <p><strong>Goal </strong><span id="@username">@goal</span>. 4m </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatem reiciendis consequatur rem vel, aut laboriosam placeat nulla aperiam nam qui nostrum eius! Dolor incidunt quibusdam doloribus illo tenetur placeat corporis veritatis mollitia excepturi, similique cum ipsa, error vel modi neque iusto cumque nemo fugit. Distinctio alias itaque quas ipsa nam repellendus sed quasi, a aliquam ad qui hic eos doloribus delectus natus enim, aut recusandae. Illo architecto vero vitae voluptas. Iure doloremque beatae nemo soluta ad dolor. Minus explicabo vero iure, id facere laudantium cumque veritatis quaerat, sint iste corrupti odit placeat accusantium, illo in corporis perferendis sapiente reprehenderit!</p>
+                    <div id="tweetContentImgs">
+                        <i class="fab fa-twitter">22</i>
+                        <i class="fab fa-twitter">9231</i>
+                        <i class="fab fa-twitter">731</i>
+                        <i class="fab fa-twitter"></i>
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="right_page">
+            <div id="searchTwitter">
+                <i class="fab fa-twitter"></i><textarea name="search" id="searchText" placeholder="Search twitter" cols="80" rows="1"></textarea>
+            </div>
+            <div id="trends">
+                <div id="trendHead">
+                    <h3>Trends for you.</h3><i class="fab fa-twitter"></i>
+                </div>
+                <div class="trendBody">
+                    <p>Trending in Nigeria</p>
+                    <h3>Boo of the Booless</h3>
+                    <p>3,000 tweets</p>
+                </div>
+
+                <div class="trendBody">
+                    <p>Trending in Nigeria</p>
+                    <h3>Boo of the Booless</h3>
+                    <p>3,000 tweets</p>
+                </div>
+
+                <div class="trendBody">
+                    <p>Trending in Nigeria</p>
+                    <h3>Boo of the Booless</h3>
+                    <p>3,000 tweets</p>
+                </div>
+
+                <div class="trendBody">
+                    <p>Trending in Nigeria</p>
+                    <h3>Boo of the Booless</h3>
+                    <p>3,000 tweets</p>
+                </div>
+            </div>
+
+            <div id="whoToFollow">
+                <div id="whoToFollowHead">
+                    <h3>Who to follow.</h3><i class="fab fa-twitter"></i>
+                </div>
+                <div class="whoToFollowBody">
+                    <div class="whoToFollowImgTxt" >
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/1200px-Goal-com_Logo.svg.png" alt="">
+                        <div class="whoToFollowText">
+                            <h6>Huawei Enterprise</h6>
+                            <p>@HuaweiEnt</p>
+                        </div>
+                    </div>
+                    
+                    <div class="followBtnDiv">
+                        <button class="followBtn">Follow</button>
+                    </div>
+                </div>
+
+                <div class="whoToFollowBody">
+                    <div class="whoToFollowImgTxt" >
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/1200px-Goal-com_Logo.svg.png" alt="">
+                        <div class="whoToFollowText">
+                            <h6>Huawei Enterprise</h6>
+                            <p>@HuaweiEnt</p>
+                        </div>
+                    </div>
+
+                    <div class="followBtnDiv">
+                        <button class="followBtn">Follow</button>
+                    </div>
+                </div>
+
+                <div class="whoToFollowBody">
+                    <div class="whoToFollowImgTxt" >
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/1200px-Goal-com_Logo.svg.png" alt="">
+                        <div class="whoToFollowText">
+                            <h6>Huawei Enterprise</h6>
+                            <p>@HuaweiEnt</p>
+                        </div>
+                    </div>
+                    
+                    <div class="followBtnDiv">
+                        <button class="followBtn">Follow</button>
+                    </div>
+                </div>
+
+                <div class="whoToFollowBody">
+                    <div class="whoToFollowImgTxt" >
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/1200px-Goal-com_Logo.svg.png" alt="">
+                        <div class="whoToFollowText">
+                            <h6>Huawei Enterprise</h6>
+                            <p>@HuaweiEnt</p>
+                        </div>
+                    </div>
+                    
+                    <div class="followBtnDiv">
+                        <button class="followBtn">Follow</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
